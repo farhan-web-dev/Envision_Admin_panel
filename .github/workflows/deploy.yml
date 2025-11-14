@@ -3,7 +3,7 @@ name: Next-frontend - Deploy to AWS EC2 (Production Mode)
 on:
   push:
     branches:
-      - main
+      - result-responsive
 
 jobs:
   deploy:
