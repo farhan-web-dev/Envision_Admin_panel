@@ -33,7 +33,7 @@ const SellerVerificationBadge = ({ userId }: { userId: string }) => {
     const loadVerification = async () => {
       try {
         const res = await fetchSellerVerification(userId);
-        console.log("verification status", res);
+        // console.log("verification status", res);
 
         setVerification(
           res?.data?.profile?.verificationStatus || "Not Verified"
